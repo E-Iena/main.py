@@ -1,6 +1,6 @@
-n=3  # количество строк
-m=4  # количество столбцов
-value=10  # значение
+n=int(input('Введите количество строк '))
+m=int(input('Введите количество столбцов ')) 
+value=int(input('Введите значение '))
 def get_matrix(n, m, value):
     matrix=[]
     for i in range(n):
